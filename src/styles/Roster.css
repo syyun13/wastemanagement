@@ -1,0 +1,25 @@
+.container {
+    padding: 0;
+}
+
+#tierTitle {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#roster .btn-flat {
+    padding: 10px;
+    border-width: 1.5px;
+}
+
+i, #page {
+    float: right;
+}
+
+#page {
+    font-weight: 500;
+    font-size: 0.8em;
+}
