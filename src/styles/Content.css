@@ -1,0 +1,49 @@
+* {
+    color: white;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.list {
+    margin-top: 40px;
+}
+
+.arrow {
+    color: #F0B310;
+}
+
+.btn-flat {
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    font-weight: 800;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    color: #0D6A41;
+    background-color: white;
+    width: 100%;
+}
+
+#seven {
+    margin-right: 10px;
+    font-size: 7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    float: left;
+    vertical-align: top;
+    line-height: 96px;
+}
