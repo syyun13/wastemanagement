@@ -10,8 +10,8 @@ function Topbar(){
                 <img
                 alt=""
                 src="/wmlogo.png"
-                width="110"
-                height="130"
+                width="90"
+                height="106"
                 className="d-inline-block"
                 />{' '}
                 CHALLENGE
