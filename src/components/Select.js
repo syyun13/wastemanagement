@@ -107,6 +107,7 @@ function Select(props){
                         </Button>
                     </Col>
                 </Row>
+                </div>
                 {tier1[0] && tier1[1] && tier2[0] && tier2[1] && tier3[0] && tier3[1] ?
                 <Row>
                     <Col sm={8}>
@@ -116,7 +117,6 @@ function Select(props){
                     </Col>
                 </Row>
                 : <></>}
-            </div>
         </Container>
     )
 }
