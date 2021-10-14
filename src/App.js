@@ -1,4 +1,3 @@
-import './styles/App.css';
 import React from 'react';
 import Topbar from './components/Topbar'
 import Content from './components/Content'

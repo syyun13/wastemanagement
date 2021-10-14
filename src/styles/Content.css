@@ -27,7 +27,7 @@ p {
     top: 20%;
 }
 
-.btn-flat {
+.btn-flat, .list .btn-flat:hover {
     color: white;
     border-radius: 10px;
     border-color: white;

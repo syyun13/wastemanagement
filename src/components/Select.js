@@ -4,7 +4,6 @@ import { withRouter } from 'react-router-dom';
 
 function Select(props){
     const { tier1, tier2, tier3 } = props.tier;
-    
     const page = props.page;
 
     const onClick = () => {
@@ -103,7 +102,7 @@ function Select(props){
                 </Row>
                 <Row>
                     <Col sm={8}>
-                        <Button className="btn-success" variant="flat">
+                        <Button variant="flat" className="btn-success">
                             Charly Hoffman
                         </Button>
                     </Col>

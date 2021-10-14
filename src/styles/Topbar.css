@@ -10,3 +10,21 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+
+.modal-content h2 {
+    color: #0D6A41;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.modal-content p {
+    color: #000000;
+}
+
+.modal-content .btn {
+    background-color: #0D6A41;
+    padding: 10px;
+    width: 40%;
+    float: right;
+    margin-bottom: 0;
+}
