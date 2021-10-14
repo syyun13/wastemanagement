@@ -15,8 +15,12 @@
     border-width: 1.5px;
 }
 
-i, #page {
+.bi-arrow-right, #page {
     float: right;
+}
+
+.bi-arrow-left {
+    float: left;
 }
 
 #page {
