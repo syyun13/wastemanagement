@@ -1,0 +1,21 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: #F0B310;
+}
+
+#message {
+    margin-top: 100px;
+}
+
+#message .submit {
+    width: 30%;
+    margin-top: 20px;
+}

@@ -1,12 +1,24 @@
 import './styles/App.css';
+import React from 'react';
 import Topbar from './components/Topbar'
 import Content from './components/Content'
+import Result from './components/Result'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Topbar />
-      <Content />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <Content />
+          </Route>
+          <Route path="/result">
+            <Result />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

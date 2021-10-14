@@ -15,8 +15,16 @@ p {
     margin-top: 40px;
 }
 
+.pointer {
+    margin-bottom: 20px;
+    position: relative;
+}
+
 .arrow {
     color: #F0B310;
+    font-size: 2em;
+    position: absolute;
+    top: 20%;
 }
 
 .btn-flat {
@@ -33,7 +41,7 @@ p {
     height: 80%;
 }
 
-.btn-success {
+.btn-success, .btn-success:hover {
     color: #0D6A41;
     background-color: white;
     width: 100%;
@@ -49,7 +57,7 @@ p {
     line-height: 96px;
 }
 
-#submit {
+.submit {
     color: #0D6A41;
     background-color: #B4C64C;
     border: none;

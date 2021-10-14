@@ -9,9 +9,9 @@ function Topbar(){
             <Navbar.Brand id="title">
                 <img
                 alt=""
-                src="/wmlogo.png"
+                src="/wm.png"
                 width="90"
-                height="106"
+                height="116"
                 className="d-inline-block"
                 />{' '}
                 CHALLENGE

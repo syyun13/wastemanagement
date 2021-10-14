@@ -1,9 +1,18 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
 
 function Select(props){
     const { tier1, tier2, tier3 } = props.tier;
+    
     const page = props.page;
+
+    const onClick = () => {
+        props.history.push({
+            pathname: "/result"
+        })
+    }
+
     return (
         <Container>
             <div id="seven">7</div>
@@ -34,8 +43,8 @@ function Select(props){
                         </Button>
                     }
                     </Col>
-                    <Col>
-                        { page === 1 ? <p className="arrow">⇐</p> : <></> }
+                    <Col className="pointer">
+                        { page === 1 ? <i className="bi bi-arrow-left arrow"></i> : <></> }
                     </Col>
                 </Row>
                 <Row>
@@ -61,8 +70,8 @@ function Select(props){
                         </Button>
                     }
                     </Col>
-                    <Col>
-                        { page === 2 ? <p className="arrow">⇐</p> : <></> }
+                    <Col className="pointer">
+                        { page === 2 ? <i className="bi bi-arrow-left arrow"></i> : <></> }
                     </Col>
                 </Row>
                 <Row>
@@ -88,8 +97,8 @@ function Select(props){
                         </Button>
                     }
                     </Col>
-                    <Col>
-                        { page === 3 ? <p className="arrow">⇐</p> : <></> }
+                    <Col className="pointer">
+                        { page === 3 ? <i className="bi bi-arrow-left arrow"></i>  : <></> }
                     </Col>
                 </Row>
                 <Row>
@@ -102,7 +111,7 @@ function Select(props){
                 {tier1[0] && tier1[1] && tier2[0] && tier2[1] && tier3[0] && tier3[1] ?
                 <Row>
                     <Col sm={8}>
-                        <Button variant="flat" id="submit">
+                        <Button variant="flat" className="submit" onClick={() => onClick()}>
                             SUBMIT
                         </Button>
                     </Col>
@@ -113,4 +122,4 @@ function Select(props){
     )
 }
 
-export default Select;
+export default withRouter(Select);
