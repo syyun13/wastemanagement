@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wastemanagement/static/css/main.1109a848.chunk.css",
-    "main.js": "/wastemanagement/static/js/main.40a92f4f.chunk.js",
-    "main.js.map": "/wastemanagement/static/js/main.40a92f4f.chunk.js.map",
+    "main.js": "/wastemanagement/static/js/main.a16bdc23.chunk.js",
+    "main.js.map": "/wastemanagement/static/js/main.a16bdc23.chunk.js.map",
     "runtime-main.js": "/wastemanagement/static/js/runtime-main.06809e81.js",
     "runtime-main.js.map": "/wastemanagement/static/js/runtime-main.06809e81.js.map",
     "static/js/2.639b2841.chunk.js": "/wastemanagement/static/js/2.639b2841.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.06809e81.js",
     "static/js/2.639b2841.chunk.js",
     "static/css/main.1109a848.chunk.css",
-    "static/js/main.40a92f4f.chunk.js"
+    "static/js/main.a16bdc23.chunk.js"
   ]
 }
